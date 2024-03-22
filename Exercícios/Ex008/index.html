@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam a todos tamanhos de dispositivos</h1>
+    <p>Abra esse site em vários dispositivos de tamanhos diferentes</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/imagem-g.png" type="image/png">
+        <source media="(min-width: 760px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-p.png" alt="Imagem flexível">
+        <!--TAMANHO RECOMENDADO 1000PX(PC), 760PX(TABLET), 300PX(CELULAR)
+        SEMPRE O TYPE PRECISA SER IGUAL AO TIPO DO ARQUIVO.-->
+    </picture>
+</body>
+</html>
